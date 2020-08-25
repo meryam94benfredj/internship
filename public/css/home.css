@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f6f9;
+}
+#sideMenu{
+    background-color: #302d43;
+    max-width: 250px;
+    width: 250px;
+    max-height: 800px;
+    position: absolute;
+    top: 55px;
+    bottom: 0;
+
+}
+
+#it{
+
+    display: block;
+    color: darkgrey;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 300;
+    transition: all .3s ease-in-out;
+
+}
+#it:hover{
+    background-color: #282639;
+    border-left:5px solid #92cf48;
+    padding: 15px 30px 15px 25px;
+}
+
+.fa{
+    color: darkgrey;
+    font-size: 0.7rem;
+    margin-right: 0.8rem;
+    display: inline-block;
+    width:20px;
+    position: relative;
+    top: 2px;
+}
+.active{
+    background-color: #282639;
+    border-left:5px solid #92cf48;
+    padding: 15px 30px 15px 25px;
+
+}
+
